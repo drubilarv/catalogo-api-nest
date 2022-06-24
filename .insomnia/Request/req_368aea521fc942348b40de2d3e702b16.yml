@@ -1,0 +1,30 @@
+_id: req_368aea521fc942348b40de2d3e702b16
+type: Request
+parentId: fld_143fcb75127a4bc48c265ad92f391b08
+modified: 1655911342173
+created: 1655911175178
+url: "{{ _.url }}:{{ _.port }}/brands"
+name: Create brands
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Colun",
+    	"image":"https://picsum.photos/700/400?random"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_11dec2c1f88c40928f0d10c28041dae4
+authentication: {}
+metaSortKey: -1655911086275.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

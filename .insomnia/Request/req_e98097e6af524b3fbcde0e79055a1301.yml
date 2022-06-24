@@ -1,0 +1,29 @@
+_id: req_e98097e6af524b3fbcde0e79055a1301
+type: Request
+parentId: fld_34aa133738e44f34a9585949d6003a2f
+modified: 1655912748791
+created: 1655912507267
+url: "{{ _.url }}:{{ _.port }}/orders"
+name: Create order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customerId":2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ccd129b8e58547039b09e3a77f0a9ac6
+authentication: {}
+metaSortKey: -1655912507267
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

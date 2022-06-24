@@ -1,0 +1,29 @@
+_id: req_9c3f3c62cd9849c7ac8cca07facafea3
+type: Request
+parentId: fld_46e995081615474a9991e435b2cfd402
+modified: 1655911587642
+created: 1655911537061
+url: "{{ _.url }}:{{ _.port }}/categories"
+name: Create categories
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Libreria"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5d9aa199b7d542769d0ee8e3d19545aa
+authentication: {}
+metaSortKey: -1655911396513.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

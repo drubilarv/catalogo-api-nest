@@ -1,0 +1,21 @@
+_id: req_0996635b1d2f4b2188aa3c0cb6831aa1
+type: Request
+parentId: fld_93c71326c4e343d896fa3c209375264d
+modified: 1655911006717
+created: 1655910980767
+url: "{{ _.url }}:{{ _.port }}/products"
+name: List products
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655910980767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

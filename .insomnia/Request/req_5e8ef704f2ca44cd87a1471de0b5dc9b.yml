@@ -1,0 +1,35 @@
+_id: req_5e8ef704f2ca44cd87a1471de0b5dc9b
+type: Request
+parentId: fld_93c71326c4e343d896fa3c209375264d
+modified: 1655912581413
+created: 1655911070618
+url: "{{ _.url }}:{{ _.port }}/products"
+name: Create product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Leche con chocolate",
+    	"description":"Leche con sabor a chocolate",
+    	"price":1125,
+    	"stock":100,
+    	"image":"https://picsum.photos/700/400?random",
+    	"brandId":1,
+    	"categoriesIds":[1,2]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6ab753b59eeb4cbfb87e00a3303cf2c1
+authentication: {}
+metaSortKey: -1655904980791
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

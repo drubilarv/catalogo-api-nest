@@ -1,0 +1,21 @@
+_id: req_7701712b4bf54c85afd809099a25aba2
+type: Request
+parentId: fld_97b2406d88af486f8fb3900f8634525e
+modified: 1655911862105
+created: 1655902655195
+url: "{{ _.url }}:{{ _.port }}/users/1"
+name: User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655902980824
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_33bfc1898b634da7a955b2c1161470d6
+type: Request
+parentId: fld_97b2406d88af486f8fb3900f8634525e
+modified: 1655911860079
+created: 1655902323703
+url: "{{ _.url }}:{{ _.port }}/users/"
+name: List users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655902980849
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

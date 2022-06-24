@@ -1,0 +1,30 @@
+_id: req_aa2a3bbc29c0441dbe9386f705b3803a
+type: Request
+parentId: fld_97b2406d88af486f8fb3900f8634525e
+modified: 1655911983310
+created: 1655902980799
+url: "{{ _.url }}:{{ _.port }}/users/1"
+name: Update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userName": "drubilarv",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a9e7c146e5fb4946ad5e2b3f8b3da133
+authentication: {}
+metaSortKey: -1655902980799
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

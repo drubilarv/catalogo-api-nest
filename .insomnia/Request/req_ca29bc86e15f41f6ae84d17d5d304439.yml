@@ -1,0 +1,21 @@
+_id: req_ca29bc86e15f41f6ae84d17d5d304439
+type: Request
+parentId: fld_8782f7a93ba24197b18d3cd642ed09ff
+modified: 1655912357850
+created: 1655912101302
+url: "{{ _.url }}:{{ _.port }}/customers"
+name: List customers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655912154749
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

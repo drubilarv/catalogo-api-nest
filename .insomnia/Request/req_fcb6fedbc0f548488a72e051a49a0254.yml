@@ -1,0 +1,21 @@
+_id: req_fcb6fedbc0f548488a72e051a49a0254
+type: Request
+parentId: fld_143fcb75127a4bc48c265ad92f391b08
+modified: 1655911145208
+created: 1655911121445
+url: "{{ _.url }}:{{ _.port }}/brands"
+name: List brands
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655911121445
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_578883b6c8d94d3faf944e7bd8ffc492
+type: Request
+parentId: fld_97b2406d88af486f8fb3900f8634525e
+modified: 1655911975715
+created: 1655902741638
+url: "{{ _.url }}:{{ _.port }}/users"
+name: Create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"visita@gmail.com",
+    	"userName":"visita",
+    	"password":"123456",
+    	"role":"Guest"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0b937842257143828682b7c2eb517e94
+authentication: {}
+metaSortKey: -1655902980811.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

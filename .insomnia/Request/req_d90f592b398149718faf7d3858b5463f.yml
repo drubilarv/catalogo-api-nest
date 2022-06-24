@@ -1,0 +1,31 @@
+_id: req_d90f592b398149718faf7d3858b5463f
+type: Request
+parentId: fld_8782f7a93ba24197b18d3cd642ed09ff
+modified: 1655912419362
+created: 1655912154699
+url: "{{ _.url }}:{{ _.port }}/customers"
+name: Create customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Visita",
+    	"lastName":"visita",
+    	"phone":"+56954432740"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_304d8786ca6e41269ae4ad3d1aa7238d
+authentication: {}
+metaSortKey: -1655912154699
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

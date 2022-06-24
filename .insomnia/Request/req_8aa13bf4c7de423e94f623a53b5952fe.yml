@@ -1,0 +1,29 @@
+_id: req_8aa13bf4c7de423e94f623a53b5952fe
+type: Request
+parentId: fld_34aa133738e44f34a9585949d6003a2f
+modified: 1655912762908
+created: 1655912650330
+url: "{{ _.url }}:{{ _.port }}/orders/1"
+name: Update order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customerId":2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b2ab40ddef2648698c0b18284bc67082
+authentication: {}
+metaSortKey: -1655912316767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

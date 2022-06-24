@@ -1,0 +1,39 @@
+_id: req_dc4bf0aa73df4e11a4d042af511cffb2
+type: Request
+parentId: fld_8782f7a93ba24197b18d3cd642ed09ff
+modified: 1656019181426
+created: 1656019150710
+url: "{{ _.url }}:{{ _.port }}/customers/transaction"
+name: Create customer transaction
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    	"name":"Visita",
+    	"lastName":"visita",
+    	"phone":"+56954432740"
+    },
+    	{
+    	"name":"Visita2",
+    	"lastName":"visita2",
+    	"phone":"+56954432740"
+    }
+    	
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_304d8786ca6e41269ae4ad3d1aa7238d
+authentication: {}
+metaSortKey: -1655912154674
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

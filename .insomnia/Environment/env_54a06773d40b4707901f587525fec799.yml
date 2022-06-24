@@ -1,0 +1,16 @@
+_id: env_54a06773d40b4707901f587525fec799
+type: Environment
+parentId: env_79d99c1448851eedebad26d323f827405cd5d447
+modified: 1656084955606
+created: 1655902142120
+name: node-testing
+data:
+  url: http://localhost
+  port: 3000
+dataPropertyOrder:
+  "&":
+    - url
+    - port
+color: null
+isPrivate: false
+metaSortKey: 1655902142120

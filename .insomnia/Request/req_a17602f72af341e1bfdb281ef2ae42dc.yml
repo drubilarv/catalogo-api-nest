@@ -1,0 +1,21 @@
+_id: req_a17602f72af341e1bfdb281ef2ae42dc
+type: Request
+parentId: fld_34aa133738e44f34a9585949d6003a2f
+modified: 1655912764076
+created: 1655912478885
+url: "{{ _.url }}:{{ _.port }}/orders"
+name: List orders
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655912507317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_a95d9ca4cace4262a8d13fd5c1188a5b
+type: Request
+parentId: fld_8782f7a93ba24197b18d3cd642ed09ff
+modified: 1655912432424
+created: 1655912361993
+url: "{{ _.url }}:{{ _.port }}/customers/1"
+name: Update customer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"lastName":"Rubilar Valenzuela"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fee8b94775764e3984a04762ac1036ad
+authentication: {}
+metaSortKey: -1655912154649
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
