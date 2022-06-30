@@ -1,0 +1,31 @@
+_id: req_6c9678b4651141798d270e3fa3e3a251
+type: Request
+parentId: fld_fac1cb5050b541faa2d433bce94650f4
+modified: 1656596716322
+created: 1656595928643
+url: "{{ _.url }}:{{ _.port }}/order-item/"
+name: Add item order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"orderId":1,
+    	"productId":2,
+    	"quantity": 100
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ccd129b8e58547039b09e3a77f0a9ac6
+authentication: {}
+metaSortKey: -1655912412017
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
