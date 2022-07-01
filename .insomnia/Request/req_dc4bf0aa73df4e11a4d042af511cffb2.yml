@@ -1,7 +1,7 @@
 _id: req_dc4bf0aa73df4e11a4d042af511cffb2
 type: Request
 parentId: fld_8782f7a93ba24197b18d3cd642ed09ff
-modified: 1656019181426
+modified: 1656424615030
 created: 1656019150710
 url: "{{ _.url }}:{{ _.port }}/customers/transaction"
 name: Create customer transaction
@@ -19,7 +19,7 @@ body:
     	{
     	"name":"Visita2",
     	"lastName":"visita2",
-    	"phone":"+56954432740"
+    	"phone":"+56912344455"
     }
     	
     ]

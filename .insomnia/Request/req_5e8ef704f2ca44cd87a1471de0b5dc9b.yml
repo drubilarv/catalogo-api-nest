@@ -1,7 +1,7 @@
 _id: req_5e8ef704f2ca44cd87a1471de0b5dc9b
 type: Request
 parentId: fld_93c71326c4e343d896fa3c209375264d
-modified: 1655912581413
+modified: 1656596469196
 created: 1655911070618
 url: "{{ _.url }}:{{ _.port }}/products"
 name: Create product
@@ -11,13 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Leche con chocolate",
-    	"description":"Leche con sabor a chocolate",
+    	"name":"Leche con frutilla",
+    	"description":"Leche con sabor a frutilla",
     	"price":1125,
     	"stock":100,
     	"image":"https://picsum.photos/700/400?random",
     	"brandId":1,
-    	"categoriesIds":[1,2]
+    	"categoriesIds":[1]
     }
 parameters: []
 headers:

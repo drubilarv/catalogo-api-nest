@@ -1,17 +1,17 @@
-_id: req_19a410548a284a608bd22cfcee1fcb20
+_id: req_ee22d7a56f054711abc6cfe5a1553229
 type: Request
-parentId: fld_8782f7a93ba24197b18d3cd642ed09ff
-modified: 1656424238483
-created: 1655912440150
-url: "{{ _.url }}:{{ _.port }}/customers/22"
-name: Delete customer
+parentId: fld_93c71326c4e343d896fa3c209375264d
+modified: 1656704117469
+created: 1656692498124
+url: "{{ _.url }}:{{ _.port }}/products?limit=10&offset=0"
+name: List products whit limit
 description: ""
-method: DELETE
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1655911821426
+metaSortKey: -1655908980775
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
